@@ -37,12 +37,141 @@ body {
     align-items: center;
 }
 
-main, header, footer {
+main, 
+header, 
+footer {
     max-width: 767.99px;
     width: 100%;
 }
 
-h1, h2, h3{
+h1, 
+h2, 
+h3{
     font-family: 'Poppins', sans-serif;
+}
+
+/* Header logo & button */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    margin: 1.5rem;
+    margin-bottom: 6rem;
+}
+
+header img{
+    width: 30%;
+}
+
+header a{
+    color: var(--light-pink);
+    text-decoration: none;
+    border: 1px solid var(--light-pink);
+    padding: 0.3rem 1.2rem;
+    border-radius: 50px;
+    font-size: 0.8em;
+}
+
+/* top-section header, paragraph and button */
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.top-section-text{
+    margin: 0 2rem;
+    margin-bottom: 3rem;
+}
+
+.top-section-text h1{
+    margin-bottom: 1.5rem;
+}
+
+.top-section-text p{
+    font-size: 0.9em;
+}
+
+.top-section a{
+    border: 1px solid var(--pink);
+    background-color: var(--pink);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    margin-bottom: 6rem;
+}
+
+/* top-section image and stats */
+
+
+#screen-mockups{
+    width: 80%;
+    margin-bottom: 6rem;
+}
+
+.stats{
+    margin-bottom: 6rem;
+}
+
+.stats img{
+    width: 20%;
+}
+
+.stats h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5em;
+    text-align: left;
+}
+
+.stats p{
+    color: grey;
+    font-size: 0.9em;
+}
+
+/* Second, third and fourth section image header and paragraph */
+
+.second-section, 
+.third-section, 
+.fourth-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.second-section img, 
+.third-section img, 
+.fourth-section img{
+    width: 80%;
+    margin-bottom: 4rem;
+}
+
+.second-section-text, 
+.third-section-text, 
+.fourth-section-text{
+    margin: 0 2rem;
+    margin-bottom: 3rem;
+}
+
+.second-section-text h2, 
+.third-section-text h2, 
+.fourth-section-text h2{
+    margin-bottom: 1.5rem;
+}
+
+.second-section-text p, 
+.third-section-text p, 
+.fourth-section-text p{
+    font-size: 0.9em;
 }
 
