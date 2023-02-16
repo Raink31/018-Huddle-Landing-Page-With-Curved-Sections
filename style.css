@@ -35,6 +35,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: var(--very-dark-cyan);
 }
 
 main, 
@@ -172,6 +173,143 @@ header a{
 .second-section-text p, 
 .third-section-text p, 
 .fourth-section-text p{
-    font-size: 0.9em;
+    font-size: 0.86em;
 }
 
+.fourth-section{
+    margin-bottom: 12rem;
+}
+
+/* Bottom section title and button */
+
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.bottom-section h2{
+    margin-bottom: 2.5rem;
+}
+
+.bottom-section a{
+    border: 1px solid var(--pink);
+    background-color: var(--pink);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    border-radius: 50px;
+    margin-bottom: 6rem;
+}
+
+/* Footer title, paragraph & subriscibe form */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--very-dark-cyan);
+    color: white;
+}
+
+.newsletter-section{
+    margin: 1.5rem;
+    text-align: left;
+    margin-bottom: 6rem;
+}
+
+.newsletter-section h2{
+    font-size: 1.2em;
+    font-weight: light;
+    margin-bottom: 1.5rem;
+}
+
+.newsletter-section p{
+    font-size: 0.95em;
+    line-height: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.newsletter-section form{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.newsletter-section .email{
+    height: 3rem;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.newsletter-section .submit{
+    width: 50%;
+    height: 3rem;
+    background-color: var(--pink);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* Contact section logo and paragraph */
+
+.contact-section{
+    margin: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#logo_white{
+    width: 65%;
+    margin-bottom: 1.5rem;
+}
+
+#lorem{
+    font-size: 0.9em;
+    line-height: 24px;
+    margin-bottom: 2.5rem;
+}
+
+.contact-desc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: .9em;
+}
+
+/* Contact section socials links logo */
+
+.socials-links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+/* attribution */
+
+.attribution{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .8em;
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+}
+
+.attribution a{
+    color: var(--pink);
+    font-weight: bold;
+    text-decoration: none;
+}
