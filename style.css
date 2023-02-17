@@ -429,7 +429,7 @@ header a:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 30rem;
+        gap: 24rem;
     }
 
     .stats {
